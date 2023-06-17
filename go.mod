@@ -1,4 +1,4 @@
-module github.com/riba2534/rare_eth
+module smart_wallet_number
 
 go 1.18
 
