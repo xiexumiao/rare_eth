@@ -66,7 +66,7 @@ func main() {
 		Short: "钱包靓号生成器，可以指定钱包地址的 前缀 和 后缀，支持指定线程数",
 		Long:  "钱包靓号生成器，可以指定钱包地址的 前缀 和 后缀，支持指定线程数\n在指定前缀和后缀的时候注意字母必须为 A-F 之间的字母，数字无要求",
 		Run: func(cmd *cobra.Command, args []string) {
-			suffix := "1688"
+			//suffix := "1688"
 			log.Println("开始生成靓号钱包地址...")
 			log.Println("前缀为", prefix)
 			log.Println("后缀为", suffix)
